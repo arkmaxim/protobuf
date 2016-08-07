@@ -10,13 +10,13 @@
 #if GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS
  #import <Protobuf/GPBProtocolBuffers_RuntimeSupport.h>
 #else
- #import "GPBProtocolBuffers_RuntimeSupport.h"
+ #import "../../GPBProtocolBuffers_RuntimeSupport.h"
 #endif
 
 #if GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS
  #import <Protobuf/SourceContext.pbobjc.h>
 #else
- #import "google/protobuf/SourceContext.pbobjc.h"
+ #import "SourceContext.pbobjc.h"
 #endif
 // @@protoc_insertion_point(imports)
 

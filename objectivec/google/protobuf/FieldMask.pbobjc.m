@@ -10,13 +10,13 @@
 #if GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS
  #import <Protobuf/GPBProtocolBuffers_RuntimeSupport.h>
 #else
- #import "GPBProtocolBuffers_RuntimeSupport.h"
+ #import "../../GPBProtocolBuffers_RuntimeSupport.h"
 #endif
 
 #if GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS
  #import <Protobuf/FieldMask.pbobjc.h>
 #else
- #import "google/protobuf/FieldMask.pbobjc.h"
+ #import "FieldMask.pbobjc.h"
 #endif
 // @@protoc_insertion_point(imports)
 
